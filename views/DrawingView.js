@@ -12,6 +12,7 @@ import { takeSnapshotAsync } from 'exponent';
 
 import Sketch from '../components/Sketch/Sketch';
 import IconButton from '../components/IconButton/IconButton';
+import PictoList from '../components/PictoList/PictoList';
 
 export default class DrawingView extends Component {
 
@@ -71,24 +72,7 @@ export default class DrawingView extends Component {
         right: 0,
         bottom: 0
       }}>
-        <Text style={{fontSize:18}}>Scroll me plz</Text>
-        <Text style={{fontSize:18}}>If you like</Text>
-        <Text style={{fontSize:18}}>Scrolling down</Text>
-        <Text style={{fontSize:18}}>What's the best</Text>
-        <Text style={{fontSize:18}}>Framework around?</Text>
-        <Text style={{fontSize:18}}>React Native</Text>
-        <Text style={{fontSize:18}}>Scroll me plz</Text>
-        <Text style={{fontSize:18}}>If you like</Text>
-        <Text style={{fontSize:18}}>Scrolling down</Text>
-        <Text style={{fontSize:18}}>What's the best</Text>
-        <Text style={{fontSize:18}}>Framework around?</Text>
-        <Text style={{fontSize:18}}>React Native</Text>
-        <Text style={{fontSize:18}}>Scroll me plz</Text>
-        <Text style={{fontSize:18}}>If you like</Text>
-        <Text style={{fontSize:18}}>Scrolling down</Text>
-        <Text style={{fontSize:18}}>What's the best</Text>
-        <Text style={{fontSize:18}}>Framework around?</Text>
-        <Text style={{fontSize:18}}>React Native</Text>
+        <PictoList />
       </ScrollView>
     );
   }

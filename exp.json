@@ -1,6 +1,6 @@
 {
   "name": "refugeye",
-  "description": "An empty new project",
+  "description": "Refugeye is a solution that helps people communicate using simple pictograms. Refugeye also allows you to draw quickly over these icons to better understand.",
   "slug": "refugeye",
   "sdkVersion": "11.0.0",
   "version": "1.0.0",
@@ -16,6 +16,9 @@
     "hideExponentText": false
   },
   "packagerOpts": {
-    "assetExts": ["ttf", "mp4"]
+    "assetExts": ["ttf", "mp4", "png"]
+  },
+  "ios": {
+    "bundleIdentifier": "com.gaelreyrol.refugeye"
   }
 }

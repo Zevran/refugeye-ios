@@ -12,15 +12,16 @@ class IconButton extends Component {
   render() {
     return (
       <TouchableOpacity onPress={this.props.onPress}>
-        <FontAwesome color="#515151" name={this.props.name} size={32} style={styles.icon} />
+        <FontAwesome color={iconColor} name={this.props.name} size={iconSize} style={styles.icon} />
       </TouchableOpacity>
     )
   }
 }
 
-let iconSize = 48;
+const iconSize = 32;
+const iconColor = "#515151";
 
-let styles = StyleSheet.create({
+const styles = StyleSheet.create({
   icon: {
     marginTop: 24,
     backgroundColor: 'transparent'
